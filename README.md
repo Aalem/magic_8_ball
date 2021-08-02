@@ -48,7 +48,7 @@ When you **run** the app and **click** on the ball image you should see random n
 <img src="https://github.com/Aalem/magic_8_ball/blob/master/git_images/7.png" height="250">  
 
 ### Step 5 - Update the State
-Change the random numbers that are generated for **ballNumber** from 0 - 4 to 1 - 6 to match our ball image names.  
+Change the random numbers that are generated for **ballNumber** from 0 - 5 to 1 - 6 to match our ball image names.  
 Instead of using a hard coded image name to display the ball image that's shown on screen, use **String interpolation** and the **ballNumber** variable instead to make it show a random image.  
 Use **setState()** to update the state of the image when the **ballNumber** variable updates.  
 All going well, you should now have the full functionality of the Magic 8 Ball app, it should look like this:  
